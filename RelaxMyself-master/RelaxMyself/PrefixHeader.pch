@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  RelaxMyself
+//
+//  Created by 周坤磊 on 16/1/21.
+//  Copyright © 2016年 周坤磊. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "PFHeader.h"
+
+#import "NSString+PF.h"
+
+#define PFMUSIC_PLAY_NOTIFICATION @"PFMusicPlayNotification"
+#define PFMUSIC_PLAYING @"PFMusicPlaying"
+#define PFMUSIC_PLAYER @"PFMusicPlayer"
+
+#define PFREAD_FOOTER_TYPE 999
+#define UMAPP_KEY @"56aec74fe0f55aab05002506"
+
+// 偏好设置
+#define MUSIC_VOICE @"musicVoice" // 音乐大小的key
+#endif
+
+#endif /* PrefixHeader_pch */
